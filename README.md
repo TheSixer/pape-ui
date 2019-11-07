@@ -1,24 +1,12 @@
-# publish-packages
-
-## Project setup
+## Install
 ```
-yarn install
+npm install pape-ui --save
 ```
 
-### Compiles and hot-reloads for development
+## Usage
 ```
-yarn serve
-```
+import Vue from 'vue'
+import PapeUI from 'pape-ui'
 
-### Compiles and minifies for production
+Vue.use(PapeUI)
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
