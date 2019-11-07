@@ -8,5 +8,7 @@ npm install pape-ui --save
 import Vue from 'vue'
 import PapeUI from 'pape-ui'
 
+import "pape-ui/lib/pape-ui.css";
+
 Vue.use(PapeUI)
 ```
