@@ -12,3 +12,16 @@ import "pape-ui/lib/pape-ui.css";
 
 Vue.use(PapeUI)
 ```
+
+```
+this.$confirm({
+  type: "empty",
+  content: "test confirm",
+  canClose: false,
+  isShowCancelBtn: true,
+  confirmBtnText: "confirm",
+  callback: res => {
+    console.log(res);
+  }
+});
+```
