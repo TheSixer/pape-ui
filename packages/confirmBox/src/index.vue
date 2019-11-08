@@ -131,12 +131,13 @@ export default {
     position: fixed;
     left: 50%;
     top: 45%;
-    width:400px;
-    height:248px;
-    background:rgba(32,33,36,1);
-    border:1px solid rgba(0, 0, 0, 1);
+    width: 400px;
+    height: 248px;
+    background: rgba(32, 33, 36, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
     box-sizing: content-box;
-    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 1.5px rgba(255,255,255,0.1);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.5),
+      inset 0px 0px 0px 1.5px rgba(255, 255, 255, 0.1);
     transform: translate(-50%, -50%);
     z-index: 9999;
     .close {
@@ -151,7 +152,7 @@ export default {
         position: absolute;
         left: 0;
         top: 6px;
-        content: '';
+        content: "";
         width: 15px;
         height: 2.5px;
         border-radius: 1px;
@@ -163,7 +164,7 @@ export default {
         position: absolute;
         left: 0;
         top: 6px;
-        content: '';
+        content: "";
         width: 15px;
         height: 2.5px;
         border-radius: 1px;
@@ -185,12 +186,12 @@ export default {
         bottom: 0;
       }
       .txt {
-        font-size:14px;
-        font-family:Microsoft YaHei;
-        font-weight:400;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
         text-align: left;
-        color:rgba(168,171,178,1);
-        line-height:21px;
+        color: rgba(168, 171, 178, 1);
+        line-height: 21px;
       }
     }
     .btn-group {
@@ -199,40 +200,40 @@ export default {
       justify-content: center;
       margin: 0 2px;
       // width:394px;
-      height:71px;
-      background:rgba(42,43,46,1);
+      height: 71px;
+      background: rgba(42, 43, 46, 1);
       .btn-default {
         outline: none;
         margin: 0 8px;
-        width:112px;
+        width: 112px;
         height: 40px;
         line-height: 40px;
-        font-size:13px;
-        font-family:Microsoft YaHei;
-        font-weight:400;
-        text-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+        font-size: 13px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
         border: none;
-        border-radius:2px;
+        border-radius: 2px;
         transition: background 0.4s;
       }
       .btn-primary {
-        color:rgba(255,255,255,1);
-        background:linear-gradient(90deg,#0065d8,#009de6);
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(90deg, #0065d8, #009de6);
         &:hover {
-          background:linear-gradient(90deg,#0080ff,#00aeff);
+          background: linear-gradient(90deg, #0080ff, #00aeff);
         }
         &:active {
-          background:linear-gradient(90deg,#0048ae,#009de6);
+          background: linear-gradient(90deg, #0048ae, #009de6);
         }
       }
       .btn-deepBlue {
-        color:rgba(0,174,255,1);
-        background:linear-gradient(90deg,#151922, #1e2633);
+        color: rgba(0, 174, 255, 1);
+        background: linear-gradient(90deg, #151922, #1e2633);
         &:hover {
-          background:linear-gradient(90deg,#171c25,#212a38);
+          background: linear-gradient(90deg, #171c25, #212a38);
         }
         &:active {
-          background:linear-gradient(90deg,#10131c,#171d2a);
+          background: linear-gradient(90deg, #10131c, #171d2a);
         }
       }
     }
@@ -242,10 +243,10 @@ export default {
 /* 可以设置不同的进入和离开动画 */
 /* 设置持续时间和动画函数 */
 .slide-fade-enter-active {
-  animation: fade-in .3s;
+  animation: fade-in 0.3s;
 }
 .slide-fade-leave-active {
-  animation: fade-in .3s reverse;
+  animation: fade-in 0.3s reverse;
 }
 @keyframes fade-in {
   0% {
